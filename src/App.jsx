@@ -11,51 +11,27 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div style={{ display: "flex", minHeight: "100vh" }}>
-        {/* Desktop Sidebar */}
+      <div className="app-wrapper">
         <DesktopSidebar />
-
-        {/* Mobile Sidebar */}
         <MobileSidebar open={mobileOpen} onClose={() => setMobileOpen(false)} />
 
-        {/* Main Column */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            flex: 1,
-            minWidth: 0,
-          }}
-        >
+        <div className="app-main-col">
           <Header onMenuClick={() => setMobileOpen(true)} />
 
-          <main style={{ flex: 1, padding: "28px 24px", overflowY: "auto" }}>
+          <main className="app-main">
             <Routes>
               <Route path="/" element={<Overview />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/profile" element={<Profile />} />
             </Routes>
           </main>
-          <footer
-            style={{
-              padding: "14px 24px",
-              borderTop: "1px solid #141414",
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
-            <span style={{ fontSize: 10, color: "#333", letterSpacing: 1 }}>
-              <span className="dev-credit">
-                &copy;Developed with{" "}
-                <i
-                  className="fa-solid fa-heart"
-                  style={{ color: "red", fontSize: ".75rem" }}
-                ></i>{" "}
-                by <strong>ENG. Dina Elbry</strong>
-              </span>
+
+          <footer className="app-footer">
+            <span className="app-footer__copy">
+              Developed with<i class="fa-solid fa-heart"></i> by{" "}
+              <span style={{ fontSize: 15 }}>ENG. Dina Elbry </span>{" "}
             </span>
-            <span style={{ fontSize: 10, color: "#333" }}>2026</span>
+            <span className="app-footer__dev"> &copy; 2026</span>
           </footer>
         </div>
       </div>
