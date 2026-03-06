@@ -41,7 +41,7 @@ export default function Header({ onMenuClick }) {
             className={`notif-btn ${notifOpen ? "open" : ""}`}
             onClick={handleNotifToggle}
           >
-            <i class="fa-solid fa-diamond"></i>
+            <i className="fa-solid fa-diamond"></i>
             {unreadCount > 0 && <span className="notif-btn__dot" />}
           </button>
           {notifOpen && (

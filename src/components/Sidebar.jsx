@@ -27,7 +27,9 @@ function SidebarContent({ onNavigate }) {
     <>
       <div className="sidebar__logo">
         <div className="sidebar__logo-inner">
-          <div className="sidebar__logo-icon"><i class="fa-solid fa-diamond"></i></div>
+          <div className="sidebar__logo-icon">
+            <i className="fa-solid fa-diamond"></i>
+          </div>
           <div>
             <div className="sidebar__logo-name">Dina elbry</div>
             <div className="sidebar__logo-sub">FREELANCE Front-End</div>

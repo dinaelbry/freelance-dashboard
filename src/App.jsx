@@ -28,7 +28,7 @@ export default function App() {
 
           <footer className="app-footer">
             <span className="app-footer__copy">
-              Developed with<i class="fa-solid fa-heart"></i> by{" "}
+              Developed with<i className="fa-solid fa-heart"></i> by{" "}
               <span style={{ fontSize: 15 }}>ENG. Dina Elbry </span>{" "}
             </span>
             <span className="app-footer__dev"> &copy; 2026</span>

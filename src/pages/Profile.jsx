@@ -61,7 +61,11 @@ export default function Profile() {
         <div className="profile-avatar-info">
           <div className="profile-avatar-name">{form.name}</div>
           <div className="profile-avatar-title">{form.title}</div>
-          <div className="profile-avatar-location"> <i class="fa-solid fa-map-pin"></i>{form.location}</div>
+          <div className="profile-avatar-location">
+            {" "}
+            <i className="fa-solid fa-map-pin"></i>
+            {form.location}
+          </div>
         </div>
         <button className="btn-secondary">Change Photo</button>
       </div>
