@@ -17,7 +17,7 @@ import {
   Cell,
   Legend,
 } from "recharts";
-import StatCard from "../components/StatCard";
+import StatCard from "../components/statCard";
 import CustomTooltip from "../components/CustomTooltip";
 import {
   mockProjects,

@@ -1,3 +1,4 @@
+
 export default function StatCard({ label, value, sub, icon, accent }) {
   return (
     <div className="stat-card" style={{ "--accent": accent }}>
