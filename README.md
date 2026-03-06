@@ -1,7 +1,9 @@
-<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page freelance admin dashboard built with React, React Router, and Recharts. Features an overview with earnings charts and activity feed, a filterable projects table with status tracking, and a profile settings page. Includes a persistent sidebar, responsive layout, and a notification dropdown with mock data.
+
+Tech stack: React · React Router v6 · Recharts · Vite · CSS-in-JS
 
 Currently, two official plugins are available:
 
@@ -18,4 +20,4 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # freelance-dashboard
 A multi-page freelance admin dashboard
->>>>>>> 0030dc1a859cc44503cacfddc52099a0b9ac7625
+
