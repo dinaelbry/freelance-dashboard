@@ -5,6 +5,8 @@ A multi-page freelance admin dashboard built with React, React Router, and Recha
 
 Tech stack: React · React Router v6 · Recharts · Vite · CSS-in-JS
 
+## Live Demo: https://freelance-dashboard-delta.vercel.app/
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
